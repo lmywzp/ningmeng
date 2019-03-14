@@ -1,0 +1,119 @@
+@import "./_minix.scss";
+@import "./common.scss";
+*{
+    .iconfont{
+        font-size:pxTorem(20px);
+    }
+}
+body,.con{
+    width:100%;
+    height:100%;
+    font-size:pxTorem(14px);
+    display:flex;
+    flex-direction: column;
+}
+.header{
+    width:100%;
+    height:pxTorem(123px);
+    background:#ffe144;
+    p{
+        width:100%;
+        line-height:pxTorem(40px);
+        display:flex;
+        margin-left:pxTorem(10px);
+        .bor{
+            display:inline-block;
+            height:pxTorem(20px);
+            line-height:pxTorem(20px);
+            padding:0 pxTorem(3px);
+            border:1px solid #000;
+            border-radius:pxTorem(10px);
+            margin-right: pxTorem(10px);
+            margin-top:pxTorem(10px)
+        }
+        span{
+            margin-right:pxTorem(100px);
+        }
+        .big{
+            font-size:pxTorem(20px);
+        }
+        .xbig{
+            font-size:pxTorem(15px);
+            margin-right:pxTorem(80px);
+        }
+    }
+}
+.main{
+    display:flex;
+    flex:1;
+    flex-direction: column;    
+    padding:pxTorem(10px);
+    box-sizing: border-box;
+    .tubiao{
+        width:100%;
+        height:pxTorem(48px);
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+        p{
+            height:pxTorem(30px);
+            width:pxTorem(114px);
+            border:1px solid #ccc;
+            border-radius:pxTorem(13px);
+            overflow: hidden;
+            span{
+                display: inline-block;
+                width:50%;
+                text-align:center;
+                line-height:pxTorem(30px);              
+            }
+            .active{
+                background:#ffe144;
+            }
+        }
+    }
+    .riqi{
+        width:100%;
+        height:pxTorem(43px);
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+        span{
+           i{
+               margin-left:pxTorem(7px);
+           } 
+        }
+    }
+    .content{
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        li{
+            width:100%;
+            height:pxTorem(70px);
+            display:flex;
+            justify-content: space-between;
+            align-items:center;
+            p{
+                display:flex;
+                align-items:center;
+                img{
+                    margin-right:pxTorem(10px);
+                }
+            }
+        }
+    }
+}
+.footer{
+    width:100%;
+    height:pxTorem(60px);
+    display:flex;
+    background:pink;
+    li{
+        display:flex;
+        flex-direction: column;
+        width:25%;
+        align-items:center;
+        justify-content:center;
+    }
+}
